@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.CounterMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.Counter">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="pknum" jdbcType="INTEGER" property="pknum" />
+    <result column="clientPknum" jdbcType="INTEGER" property="clientpknum" />
+    <result column="startDate" jdbcType="DATE" property="startdate" />
+    <result column="billingItem" jdbcType="VARCHAR" property="billingitem" />
+    <result column="totalCount" jdbcType="INTEGER" property="totalcount" />
+    <result column="changedate" jdbcType="TIMESTAMP" property="changedate" />
+    <result column="endDate" jdbcType="DATE" property="enddate" />
+    <result column="serviceCodeList" jdbcType="VARCHAR" property="servicecodelist" />
+  </resultMap>
+</mapper>
